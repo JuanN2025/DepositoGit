@@ -14,7 +14,9 @@ public class Main {
         System.out.println("El saldo actual es "+ saldoActual );
         cuenta1.setTipoInterés(10);
         System.out.println("El saldo actual es "+ cuenta1.getTipoInterés() );
-
+        cuenta1.setTipoInterés(5);
+        System.out.println("El saldo actual es "+ cuenta1.getTipoInterés() );
+        
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
